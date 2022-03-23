@@ -1,0 +1,18 @@
+2022-03-21 15:17:29.301  INFO PPBNOMBPBT-239.local --- [ntainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator          : [Consumer clientId=consumer-mygroup-1, groupId=mygroup] Resetting generation due to: consumer pro-actively leaving the group
+2022-03-21 15:17:29.323  INFO PPBNOMBPBT-239.local --- [ntainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator          : [Consumer clientId=consumer-mygroup-1, groupId=mygroup] Request joining group due to: consumer pro-actively leaving the group
+2022-03-21 15:17:29.324  INFO PPBNOMBPBT-239.local --- [ntainer#0-0-C-1] o.a.k.c.c.KafkaConsumer                  : [Consumer clientId=consumer-mygroup-1, groupId=mygroup] Unsubscribed all topics or patterns and assigned partitions
+2022-03-21 15:17:29.329  INFO PPBNOMBPBT-239.local --- [ntainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator          : [Consumer clientId=consumer-mygroup-1, groupId=mygroup] Resetting generation due to: consumer pro-actively leaving the group
+2022-03-21 15:17:29.330  INFO PPBNOMBPBT-239.local --- [ntainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator          : [Consumer clientId=consumer-mygroup-1, groupId=mygroup] Request joining group due to: consumer pro-actively leaving the group
+2022-03-21 15:17:29.333  INFO PPBNOMBPBT-239.local --- [ntainer#0-0-C-1] o.a.k.c.m.Metrics                        : Metrics scheduler closed
+2022-03-21 15:17:29.333  INFO PPBNOMBPBT-239.local --- [ntainer#0-0-C-1] o.a.k.c.m.Metrics                        : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-03-21 15:17:29.333  INFO PPBNOMBPBT-239.local --- [ntainer#0-0-C-1] o.a.k.c.m.Metrics                        : Metrics reporters closed
+2022-03-21 15:17:29.341  INFO PPBNOMBPBT-239.local --- [ntainer#0-0-C-1] o.a.k.c.u.AppInfoParser                  : App info kafka.consumer for consumer-mygroup-1 unregistered
+2022-03-21 15:17:29.342  INFO PPBNOMBPBT-239.local --- [ntainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer    : mygroup: Consumer stopped
+2022-03-21 15:17:29.353  INFO PPBNOMBPBT-239.local --- [ionShutdownHook] o.a.k.c.p.KafkaProducer                  : [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2022-03-21 15:17:29.360  INFO PPBNOMBPBT-239.local --- [ionShutdownHook] o.a.k.c.m.Metrics                        : Metrics scheduler closed
+2022-03-21 15:17:29.360  INFO PPBNOMBPBT-239.local --- [ionShutdownHook] o.a.k.c.m.Metrics                        : Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2022-03-21 15:17:29.360  INFO PPBNOMBPBT-239.local --- [ionShutdownHook] o.a.k.c.m.Metrics                        : Metrics reporters closed
+2022-03-21 15:17:29.361  INFO PPBNOMBPBT-239.local --- [ionShutdownHook] o.a.k.c.u.AppInfoParser                  : App info kafka.producer for producer-1 unregistered
+2022-03-21 15:17:29.365  INFO PPBNOMBPBT-239.local --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-21 15:17:29.371  INFO PPBNOMBPBT-239.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2022-03-21 15:17:29.465  INFO PPBNOMBPBT-239.local --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
